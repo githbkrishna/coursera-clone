@@ -79,8 +79,18 @@ li label {
 
 /* section starts */
 
-section {
+article {
   width: 80%;
+  height: 100%;
+}
+
+.datano{
+  padding: 1rem 0 0 2.5rem;
+  font-weight: 400;
+}
+
+section {
+  width: 100%;
   height: 100%;
   padding: 20px;
   display: grid;
@@ -92,7 +102,7 @@ section {
 
 .card {
   /* width: 30%; */
-  height: 270px;
+  height: 360px;
   padding: 5px;
   border: 1px solid #ccc;
   background-color: #e6e3e3;
@@ -112,6 +122,31 @@ section {
 
 .card .cardcat{
   margin: 5px 0;
+}
+
+.card .cardcourseinfo{
+  width: 100%;
+  height: 40px;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* padding-left: 10px; */
+  gap: 10px;
+}
+
+.cardcourseinfo .courseElem{
+  font-size: 2vw;
+}
+
+.cardcourseinfo .cardcourseimg{
+  width: 30px;
+  height: 30px;
+}
+
+.cardcourseinfo .cardcourseimg img{
+  width: 100%;
+  height: 100%;
 }
 
 /* footer starts */

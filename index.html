@@ -14,16 +14,34 @@
     </nav>
     <main>
         <aside>
-            <h2>Categories</h2>
-            <ul id="categories">
-                <li onclick="filterCategory('category1')"><input type="checkbox" id="one"><label for="one">Category 1</label></li>
-                <li onclick="filterCategory('category2')"><input type="checkbox" id="two"><label for="two">Category 2</label></li>
-                <li onclick="filterCategory('category3')"><input type="checkbox" id="three"><label for="three">Category 3</label></li>
-            </ul>
+            <div class="container">
+                <h2>Subject</h2>
+                <ul id="categories">
+                    <li onclick="filterCategory('FullStack development')"><input type="checkbox" name="one" id="one"><label for="one">FullStack development</label></li>
+                    <li onclick="filterCategory('Marketing')"><input type="checkbox" id="two"><label for="two">Marketing</label></li>
+                    <li onclick="filterCategory('Cyber Security')"><input type="checkbox" id="three"><label for="three">Cyber Security</label></li>
+                    <a href="/">See more</a>
+                </ul>
+            </div>
+            <div class="container">
+                <h2>Languages</h2>
+                <ul id="categories">
+                    <li onclick="filterAnotherCategory('hindi')"><input type="checkbox" id="hindi"><label for="hindi">Hindi</label></li>
+                    <li onclick="filterAnotherCategory('english')"><input type="checkbox" id="eng"><label for="eng">English</label></li>
+                    <li onclick="filterAnotherCategory('german')"><input type="checkbox" id="german"><label for="german">german</label></li>
+                    <a href="/">See more</a>
+                </ul>
+            </div>
         </aside>
-        <section id="mainSection">
-            <!-- dynamically, cards will be added here -->
-        </section>
+        <article>
+            
+            <h2 class="datano"></h2>
+
+            <section id="mainSection">
+                <!-- dynamically, cards will be added here -->
+            </section>
+
+        </article>
     </main>
 
     <footer>
