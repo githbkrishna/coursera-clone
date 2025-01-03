@@ -177,6 +177,7 @@ footer h1 {
 
 @media (max-width: 950px) {
   section {
+    padding-right: 10px;
     grid-template-columns: repeat(2, 50%);
   }
 }
