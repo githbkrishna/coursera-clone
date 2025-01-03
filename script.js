@@ -139,30 +139,30 @@ searchInput.addEventListener("input", function() {
 });
 
 
-// Disable right-click (Context Menu)
-document.addEventListener('contextmenu', function (e) {
-    e.preventDefault();
-    alert("Right-click is disabled on this page.");
-});
+// // Disable right-click (Context Menu)
+// document.addEventListener('contextmenu', function (e) {
+//     e.preventDefault();
+//     alert("Right-click is disabled on this page.");
+// });
 
-// Disable F12 (Developer Tools)
-document.addEventListener('keydown', function (e) {
-    if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
-        e.preventDefault();
-        alert("Developer Tools are disabled.");
-    }
-});
+// // Disable F12 (Developer Tools)
+// document.addEventListener('keydown', function (e) {
+//     if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+//         e.preventDefault();
+//         alert("Developer Tools are disabled.");
+//     }
+// });
 
-// Disable 'Ctrl+Shift+I' (Inspect Element shortcut)
-document.addEventListener('keydown', function (e) {
-    if (e.ctrlKey && e.shiftKey && e.key === 'I') {
-        e.preventDefault();
-        alert("Inspect Element is disabled.");
-    }
-});
+// // Disable 'Ctrl+Shift+I' (Inspect Element shortcut)
+// document.addEventListener('keydown', function (e) {
+//     if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+//         e.preventDefault();
+//         alert("Inspect Element is disabled.");
+//     }
+// });
 
-// Disable 'Ctrl+U' (View Source)
-if (e.ctrlKey && e.key === 'U') {
-    e.preventDefault();
-    alert("Viewing source code is disabled.");
-}
+// // Disable 'Ctrl+U' (View Source)
+// if (e.ctrlKey && e.key === 'U') {
+//     e.preventDefault();
+//     alert("Viewing source code is disabled.");
+// }
