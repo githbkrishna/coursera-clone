@@ -127,10 +127,10 @@ section {
 footer {
   padding: 20px;
   color: black;
-  background-color: rgb(209, 209, 209);
+  background-color: #E6E3E3;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 20px;
 }
 
@@ -145,8 +145,11 @@ footer a {
 }
 
 .foot ul li {
-  line-height: 2vw;
   transition: all 0.1s ease-in-out;
+}
+
+footer .foot:nth-child(2) ul li{
+  margin-bottom: 15px;
 }
 
 .foot ul li:hover {
@@ -217,10 +220,6 @@ footer h1 {
     width: 48%;
     /* margin-bottom: 20px; */
   }
-  footer .foot:nth-child(2) ul li{
-    margin-bottom: 15px;
-  }
-
 }
 
 
